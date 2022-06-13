@@ -41,7 +41,23 @@
     margin-bottom: 0px;
 }
 
-#tabella-head{
+#tabella{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#tabella-header{
     color: white;
     background-color: #4ea0ff;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+table, th, td{
+    width: 1200px;
+}
+
+.celeste{
+    background-color: lightblue;
 }
